@@ -1,23 +1,153 @@
 <!doctype html>
-
 <html lang="fr">
 
 <head>
-	<meta charset="utf-8">
-
-	<title>Porfolio Thibaut C</title>
-
-	<link rel="stylesheet" href="css/cv.css">
-
-	<!--[if lt IE 9]>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Porfolio Thibaut C</title>
+    <link rel="stylesheet" href="css/cv.css">
+    <!--[if lt IE 9]>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat">
 </head>
 
 <body>
+    <div id="topBar" class="topBar"></div>
+    <header>
+        <h1>Thibaut C</h1>
+        <h3>Full Stack developer</h3>
+        <div>
+            <a href="mailto:thibaut.castanie@gmail.com" class="button_top"><i class="fa fa-envelope fa-2x"></i></a>
+            <a href="https://github.com/Ooya" class="button_top" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/thibaut-c" class="button_top" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+        </div>
+    </header>
+    <section class="sectionA">
+        <div class="desc">
+            <h2>Urban Wheelchair</h2>
+            <p>Jeu sérieux sensibilisant aux difficultés que rencontrent les personnes en fauteuil roulant, dans un milieu urbain
+                non aménagé</p>
+            <p><b>Tech: </b>Unity, Cinema 4D, LMMS</p>
+            <br />
+            <a href="https://github.com/Ooya/Urban-Wheelchair/releases" class="button_orange" target="_blank"><i class="fa fa-download"></i> Télécharger</a>
+            <a href="https://github.com/Ooya/Urban-Wheelchair" class="button_orange" target="_blank"><i class="fa fa-code"></i> Code</a>
+        </div>
+        <div class="desc_pic">
+            <iframe src="https://player.vimeo.com/video/187167924?color=ff9933&byline=0&portrait=0" width="640" height="360" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="sectionB">
+        <div class="desc_pic">
+            <a href="#img-robot-sapiens">
+                <img src="./img/robot-sapiens.png" alt="" style="width:100%;max-height:350px;" />
+            </a>
+            <a href="#_" class="lightbox" id="img-robot-sapiens">
+                <img src="./img/robot-sapiens.png">
+            </a>
+        </div>
+        <div class="desc">
+            <h2>Robot Sapiens</h2>
+            <p>Projet d'IA et de réalité augmentée, permettant d'apprendre un déplacement intelligent à des robots virtuels
+                composés de capteurs</p>
+            <p><b>Tech: </b>Java, Unity, Machine Learning, Leap Motion, Track IR</p>
+            <br />
+            <a href="https://youtu.be/aWIfscHX_X8" class="button_white" target="_blank"><i class="fa fa-youtube-play"></i> Vidéo</a>
+            <a href="https://github.com/Ooya/Robot-Sapiens" class="button_white" target="_blank"><i class="fa fa-code"></i> Code</a>
+        </div>
+    </section>
+    <section class="sectionA">
+        <div class="desc">
+            <h2>Heliko</h2>
+            <p>Application pour mobiles et tablettes réalisée en équipe, mettant en scène 3 mini-jeux possédant chacun un tutoriel,
+                basés sur les réflexes et la maîtrise du rythme musical</p>
+            <p><b>Tech: </b>Unity, C#, Illustrator</p>
+            <br />
+            <a href="https://play.google.com/store/apps/details?id=com.oufmania.heliko" class="button_orange" target="_blank"><i class="fa fa-android"></i> Google Play</a>
+            <a href="https://github.com/Doelia/Heliko" class="button_orange" target="_blank"><i class="fa fa-code"></i> Code</a>
+        </div>
+        <div class="desc_pic">
+            <div id="slider">
+                <div id="slide-holder">
+                    <div class="slide">
+                        <img src="./img/heliko-1.png" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./img/heliko-2.png" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./img/heliko-3.png" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./img/heliko-00.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sectionB">
+        <div class="desc_pic">
+            <a href="#img-pyramid">
+                <img src="./img/pyramid.jpg" alt="" style="width:100%;max-height:300px;" />
+            </a>
 
-	<h1>Hello toi ;)</h1>
+            <a href="#_" class="lightbox" id="img-pyramid">
+                <img src="./img/pyramid.jpg">
+            </a>
+        </div>
+        <div class="desc">
+            <h2>Pyramid</h2>
+            <p>Participation à la création du jeu</p>
+            <p><b>Tech: </b>JavaScript, WebGL, Photoshop</p>
+            <br />
+            <a href="http://www.bazia.net:1326/" class="button_white" target="_blank"><i class="fa fa-gamepad"></i> Jouer</a>
+            <a href="https://github.com/xviniette/Pyramid" class="button_white" target="_blank"><i class="fa fa-code"></i> Code</a>
+        </div>
+    </section>
+    <section class="sectionA">
+        <div class="desc">
+            <h2>Swag Worlds Clicker</h2>
+            <p>Petit <em>clicker game</em> rapide codé à l'occasion du <b>Ludum Dare #30</b></p>
+            <p><b>Tech: </b>HTML/CSS, JavaScript, Cinema 4D</p>
+            <br />
+            <a href="https://ooya.github.io/Swag-World-Clicker/" class="button_orange" target="_blank"><i class="fa fa-gamepad"></i> Jouer</a>
+            <a href="http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=19747" class="button_orange" target="_blank"><i class="fa fa-external-link"></i> LD30</a>
+            <a href="https://github.com/Ooya/Swag-World-Clicker/" class="button_orange" target="_blank"><i class="fa fa-code"></i> Code</a>
+        </div>
+        <div class="desc_pic">
+            <a href="#img-swag">
+                <img src="./img/swag-world-clicker.png" alt="" style="width:100%;max-height:300px;" />
+            </a>
+            <a href="#_" class="lightbox" id="img-swag">
+                <img src="./img/swag-world-clicker.png">
+            </a>
+        </div>
 
+    </section>
+    <section class="sectionB">
+        <div class="desc_pic">
+            <a href="#img-ld27">
+                <img src="./img/LD27.jpg" alt="" style="width:100%;max-height:300px;" />
+            </a>
+            <a href="#_" class="lightbox" id="img-ld27">
+                <img src="./img/LD27.jpg">
+            </a>
+        </div>
+        <div class="desc">
+            <h2>10 Seconds for Fish !</h2>
+            <p>Mini jeu réalisé à l'aide de <b>Construct 2</b>, à l'occasion du <b>Ludum Dare #27</b></p>
+            <p><b>Tech: </b>Construct 2, Paint.NET</p>
+            <br />
+            <a href="http://ooya.esy.es/LD27/" class="button_white" target="_blank"><i class="fa fa-gamepad"></i> Jouer</a>
+            <a href="http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=19747" class="button_white" target="_blank"><i class="fa fa-external-link"></i> LD27</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&lt;/&gt;</p>
+    </footer>
 </body>
 
 </html>

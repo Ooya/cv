@@ -1,3 +1,256 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+header {
+    background-color: #2b3e50;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ebebeb;
+    padding: 8rem 2rem;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: #2b3e50;
+    padding: 0.1rem 5rem;
+    color: #df691a;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 h1 {
-    background-color: red;
+    color: #df691a;
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.topBar {
+    width: 100%;
+    height: 4px;
+    background-color: #DF691A;
+    position: absolute;
+}
+
+section {
+    min-height: 300px;
+    padding: 2em 5em;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+section p {
+    font-size: 0.8em;
+}
+
+.sectionA {
+    background-color: #ebebeb;
+    color: #2b3e50;
+}
+
+.sectionB {
+    background-color: #df691a;
+    color: #ebebeb;
+}
+
+.button_top {
+    color: #df691a;
+    padding: 0 0.6em;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.button_top:hover {
+    color: #ebebeb;
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+
+.button_orange {
+    display: inline-block;
+    border: 3px solid #df691a;
+    text-decoration: none;
+    color: #df691a;
+    border-radius: 6px;
+    padding: 0.4em 0.6em;
+    margin-right: 5px;
+    transition: all 0.5s;
+}
+
+.button_orange:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #ebebeb;
+    background-color: #df691a;
+}
+
+.button_white {
+    display: inline-block;
+    border: 3px solid #2b3e50;
+    text-decoration: none;
+    color: #2b3e50;
+    border-radius: 6px;
+    padding: 0.4em 0.6em;
+    margin-right: 5px;
+    transition: all 0.5s;
+}
+
+.button_white:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #df691a;
+    background-color: #2b3e50;
+}
+
+.desc {
+    width: 50%;
+    padding: 0em 1em;
+}
+
+.desc_pic {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0em 1em;
+}
+
+.desc_pic>a>img:hover {
+    cursor: zoom-in;
+}
+
+#slider {
+    width: 540px;
+    height: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slide {
+    width: 540px;
+    height: 320px;
+    float: left;
+    position: relative;
+}
+
+#slide-holder {
+    width: 400%;
+    position: relative;
+    left: 0;
+    animation: scroller 18s infinite;
+    animation-timing-function: cubic-bezier(0.85, -0.0, 0.15, 1.0);
+}
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-540px);
+    }
+    50% {
+        transform: translateX(-1080px);
+    }
+    75% {
+        transform: translateX(-1620px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 5%;
+}
+
+.lightbox:target {
+    outline: none;
+    display: block;
+    cursor: zoom-out;
+}
+
+@media screen and (max-width: 63.9375em) {
+    .desc {
+        padding: 0em 0.6em;
+    }
+    .desc_pic {
+        padding: 0em 0.6em;
+    }
+    section {
+        padding: 1em 1em;
+        display: flex;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    section p {
+        font-size: 0.8em;
+    }
+    .button_orange {
+        border: 2px solid #df691a;
+        border-radius: 4px;
+        padding: 0.2em 0.3em;
+        margin-right: 3px;
+    }
+    .button_white {
+        border: 2px solid #2b3e50;
+        border-radius: 4px;
+        padding: 0.2em 0.3em;
+        margin-right: 3px;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .desc {
+        padding: 1em 0em;
+        width: 100%;
+    }
+    .desc_pic {
+        padding: 1em 0em;
+        width: 100%;
+    }
+    section {
+        padding: 0em 1em;
+        display: block;
+        font-size: 1.2em;
+    }
+    section p {
+        font-size: 0.8em;
+    }
+    #slider {
+        display: none;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    header {
+        padding: 4rem 1rem;
+        font-size: 0.8rem;
+    }
+    .button_orange {
+        margin-bottom: 2px;
+    }
+    .button_white {
+        margin-bottom: 2px;
+    }
 }
