@@ -46,9 +46,15 @@ iframe, video {
     overflow: hidden;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+}
+
 a {
     text-decoration: none;
-    text-shadow: 0px 0px 4px;
+    text-shadow: 0px 0px 3px;
 }
 
 b {
@@ -67,7 +73,7 @@ section {
     padding: 2em 5em;
     display: flex;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .sectionA {
@@ -206,6 +212,7 @@ section {
     max-width: 90%;
     max-height: 80%;
     margin-top: 5%;
+    cursor: zoom-out;
 }
 
 .lightbox:target {
@@ -270,7 +277,7 @@ section {
     }
     header {
         padding: 4rem 1rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .button_orange {
         margin-bottom: 2px;
