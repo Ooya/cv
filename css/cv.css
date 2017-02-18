@@ -313,23 +313,21 @@ section {
   text-align: center;
   font-variant: normal;
   text-transform: none;
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
-.icon-download:before { content: '\e800'; } /* '' */
-.icon-picture:before { content: '\e801'; } /* '' */
-.icon-android-1:before { content: '\e802'; } /* '' */
-.icon-sketchfab:before { content: '\e803'; } /* '' */
-.icon-link-ext:before { content: '\f08e'; } /* '' */
-.icon-github:before { content: '\f09b'; } /* '' */
-.icon-mail-alt:before { content: '\f0e0'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-chat-empty:before { content: '\f0e6'; } /* '' */
-.icon-gamepad:before { content: '\f11b'; } /* '' */
-.icon-code:before { content: '\f121'; } /* '' */
-.icon-youtube-play:before { content: '\f16a'; } /* '' */
-.icon-vimeo:before { content: '\f27d'; } /* '' */
-
 .icon-2x {
     font-size: 2em;
 }
+ 
+.icon-download:before { content: '\e800'; }
+.icon-picture:before { content: '\e801'; }
+.icon-android-1:before { content: '\e802'; }
+.icon-sketchfab:before { content: '\e803'; }
+.icon-link-ext:before { content: '\f08e'; }
+.icon-github:before { content: '\f09b'; }
+.icon-mail-alt:before { content: '\f0e0'; }
+.icon-linkedin:before { content: '\f0e1'; }
+.icon-chat-empty:before { content: '\f0e6'; }
+.icon-gamepad:before { content: '\f11b'; }
+.icon-code:before { content: '\f121'; }
+.icon-youtube-play:before { content: '\f16a'; }
+.icon-vimeo:before { content: '\f27d'; }
