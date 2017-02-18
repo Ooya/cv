@@ -13,9 +13,9 @@
         <h1>Thibaut C</h1>
         <h3>Full Stack developer</h3>
         <div>
-            <a href="mailto:thibaut.castanie@gmail.com" class="button_top"><i class="fa fa-envelope fa-2x"></i></a>
-            <a href="https://github.com/Ooya" class="button_top" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/thibaut-c" class="button_top" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="mailto:thibaut.castanie@gmail.com" class="button_top"><i class="icon-mail-alt icon-2x"></i></a>
+            <a href="https://github.com/Ooya" class="button_top" target="_blank"><i class="icon-github icon-2x"></i></a>
+            <a href="https://www.linkedin.com/in/thibaut-c" class="button_top" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
         </div>
     </header>
     <section class="sectionA">
@@ -25,18 +25,22 @@
                 non aménagé</p>
             <p><b>Tech: </b>Unity, Cinema 4D, LMMS</p>
             <br />
-            <a href="https://github.com/Ooya/Urban-Wheelchair/releases" class="button_orange" target="_blank"><i class="fa fa-download"></i> Télécharger</a>
-            <a href="https://github.com/Ooya/Urban-Wheelchair" class="button_orange" target="_blank"><i class="fa fa-code"></i> Code</a>
-            <a href="https://vimeo.com/187167924" class="button_orange" target="_blank"><i class="fa fa-vimeo"></i> Bande-Annonce</a>
+            <a href="https://github.com/Ooya/Urban-Wheelchair/releases" class="button_orange" target="_blank"><i class="icon-download"></i> Télécharger</a>
+            <a href="https://github.com/Ooya/Urban-Wheelchair" class="button_orange" target="_blank"><i class="icon-code"></i> Code</a>
+            <a href="https://vimeo.com/187167924" class="button_orange" target="_blank"><i class="icon-vimeo"></i> Bande-Annonce</a>
         </div>
         <div class="desc_pic">
-            <video src="./img/BandeannonceUrbanWheelchair.mp4" poster="./img/julie.jpg" width="640" height="360" controls preload></video>
+            <!--<video src="./img/BandeannonceUrbanWheelchair.mp4" poster="./img/julie.jpg" width="640" height="360" controls preload></video>-->
+            <video width="640" height="360" poster="./img/julie.jpg" controls preload>
+                <source src="./img/BandeannonceUrbanWheelchair.mp4"></source>
+                <source src="./img/BandeannonceUrbanWheelchair.webm"></source>
+            </video>
         </div>
     </section>
     <section class="sectionB">
         <div class="desc_pic">
             <a href="#img-robot-sapiens">
-                <img src="./img/robot-sapiens.jpg" alt="" style="max-height:350px;" />
+                <img src="./img/robot-sapiens.jpg" alt="" style="max-width:100%;height:auto;" />
             </a>
             <a href="#_" class="lightbox" id="img-robot-sapiens">
                 <img src="./img/robot-sapiens.jpg">
@@ -48,8 +52,8 @@
                 composés de capteurs</p>
             <p><b>Tech: </b>Java, Unity, Machine Learning, Leap Motion, Track IR</p>
             <br />
-            <a href="https://youtu.be/aWIfscHX_X8" class="button_white" target="_blank"><i class="fa fa-youtube-play"></i> Vidéo</a>
-            <a href="https://github.com/Ooya/Robot-Sapiens" class="button_white" target="_blank"><i class="fa fa-code"></i> Code</a>
+            <a href="https://youtu.be/aWIfscHX_X8" class="button_white" target="_blank"><i class="icon-youtube-play"></i> Vidéo</a>
+            <a href="https://github.com/Ooya/Robot-Sapiens" class="button_white" target="_blank"><i class="icon-code"></i> Code</a>
         </div>
     </section>
     <section class="sectionA">
@@ -59,8 +63,8 @@
                 basés sur les réflexes et la maîtrise du rythme musical</p>
             <p><b>Tech: </b>Unity, C#, Illustrator</p>
             <br />
-            <a href="https://play.google.com/store/apps/details?id=com.oufmania.heliko" class="button_orange" target="_blank"><i class="fa fa-android"></i> Google Play</a>
-            <a href="https://github.com/Doelia/Heliko" class="button_orange" target="_blank"><i class="fa fa-code"></i> Code</a>
+            <a href="https://play.google.com/store/apps/details?id=com.oufmania.heliko" class="button_orange" target="_blank"><i class="icon-android-1"></i> Google Play</a>
+            <a href="https://github.com/Doelia/Heliko" class="button_orange" target="_blank"><i class="icon-code"></i> Code</a>
         </div>
         <div class="desc_pic">
             <div id="slider">
@@ -84,7 +88,7 @@
     <section class="sectionB">
         <div class="desc_pic">
             <a href="#img-pyramid">
-                <img src="./img/pyramid.jpg" alt="" style="max-height:300px;" />
+                <img src="./img/pyramid.jpg" alt="" style="max-width:100%;height:auto;" />
             </a>
             <a href="#_" class="lightbox" id="img-pyramid">
                 <img src="./img/pyramid.jpg">
@@ -95,8 +99,8 @@
             <p>Participation à la création du jeu</p>
             <p><b>Tech: </b>JavaScript, WebGL, Photoshop</p>
             <br />
-            <a href="http://www.bazia.net:1326/" class="button_white" target="_blank"><i class="fa fa-gamepad"></i> Jouer</a>
-            <a href="https://github.com/xviniette/Pyramid" class="button_white" target="_blank"><i class="fa fa-code"></i> Code</a>
+            <a href="http://www.bazia.net:1326/" class="button_white" target="_blank"><i class="icon-gamepad"></i> Jouer</a>
+            <a href="https://github.com/xviniette/Pyramid" class="button_white" target="_blank"><i class="icon-code"></i> Code</a>
         </div>
     </section>
     <section class="sectionA">
@@ -106,23 +110,19 @@
                     target="_blank">World of Tanks Diorama Contest</a> organisé par <em>Sketchfab</em> et <em>Wargaming</em></p>
             <p><b>Tech: </b>Cinema 4D, MakeHuman</p>
             <br />
-            <a href="https://skfb.ly/EET9" class="button_orange" target="_blank"><i class="fa fa-external-link"></i> Modèle</a>
-            <a href="https://forum.sketchfab.com/t/wot-diorama-contest-tog-takes-children-to-school/" class="button_orange" target="_blank"><i class="fa fa-comments-o"></i> WIP</a>
-            <a href="./img/RenduTOG.jpg" class="button_orange" target="_blank"><i class="fa fa-picture-o"></i> Rendu</a>
+            <a href="https://skfb.ly/EET9" class="button_orange" target="_blank"><i class="icon-sketchfab"></i> Modèle</a>
+            <a href="https://forum.sketchfab.com/t/wot-diorama-contest-tog-takes-children-to-school/" class="button_orange" target="_blank"><i class="icon-chat-empty"></i> WIP</a>
+            <a href="./img/RenduTOG.jpg" class="button_orange" target="_blank"><i class="icon-picture"></i> Rendu</a>
         </div>
         <div class="desc_pic">
-            <div class="sketchfab-embed-wrapper">
-                <div class="sketchfab-embed-wrapper">
-                    <iframe width="570" height="350" src="https://sketchfab.com/models/c658cba5de26459c890df4ac39924340/embed?autospin=0.2&amp;preload=1"
-                        frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-                </div>
-            </div>
+            <iframe width="570" height="350" src="https://sketchfab.com/models/c658cba5de26459c890df4ac39924340/embed?autospin=0.2&amp;preload=1"
+                frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
         </div>
     </section>
     <section class="sectionB">
         <div class="desc_pic">
             <a href="#img-swag">
-                <img src="./img/swag-world-clicker.jpg" alt="" style="width:100%;max-height:300px;" />
+                <img src="./img/swag-world-clicker.jpg" alt="" style="max-width:100%;height:auto;" />
             </a>
             <a href="#_" class="lightbox" id="img-swag">
                 <img src="./img/swag-world-clicker.jpg">
@@ -133,9 +133,9 @@
             <p>Petit <em>clicker game</em> rapide codé à l'occasion du <b>Ludum Dare #30</b></p>
             <p><b>Tech: </b>HTML/CSS, JavaScript, Cinema 4D</p>
             <br />
-            <a href="https://ooya.github.io/Swag-World-Clicker/" class="button_white" target="_blank"><i class="fa fa-gamepad"></i> Jouer</a>
-            <a href="http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=19747" class="button_white" target="_blank"><i class="fa fa-external-link"></i> LD30</a>
-            <a href="https://github.com/Ooya/Swag-World-Clicker/" class="button_white" target="_blank"><i class="fa fa-code"></i> Code</a>
+            <a href="https://ooya.github.io/Swag-World-Clicker/" class="button_white" target="_blank"><i class="icon-gamepad"></i> Jouer</a>
+            <a href="http://ludumdare.com/compo/ludum-dare-30/?action=preview&uid=19747" class="button_white" target="_blank"><i class="icon-link-ext"></i> LD30</a>
+            <a href="https://github.com/Ooya/Swag-World-Clicker/" class="button_white" target="_blank"><i class="icon-code"></i> Code</a>
         </div>
     </section>
     <section class="sectionA">
@@ -144,8 +144,8 @@
             <p>Mini jeu réalisé à l'aide de <b>Construct 2</b>, à l'occasion du <b>Ludum Dare #27</b></p>
             <p><b>Tech: </b>Construct 2, Paint.NET</p>
             <br />
-            <a href="http://ooya.esy.es/LD27/" class="button_orange" target="_blank"><i class="fa fa-gamepad"></i> Jouer</a>
-            <a href="http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=19747" class="button_orange" target="_blank"><i class="fa fa-external-link"></i> LD27</a>
+            <a href="http://ooya.esy.es/LD27/" class="button_orange" target="_blank"><i class="icon-gamepad"></i> Jouer</a>
+            <a href="http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=19747" class="button_orange" target="_blank"><i class="icon-link-ext"></i> LD27</a>
         </div>
         <div class="desc_pic">
             <a href="#img-ld27">
@@ -159,9 +159,8 @@
     <footer>
         <p>&lt;/&gt;</p>
     </footer>
-    <link rel="stylesheet" href="css/cv.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Ubuntu">
+    <link rel="stylesheet" href="css/cv.css">
 </body>
 
 </html>
